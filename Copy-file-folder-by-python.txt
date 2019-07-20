@@ -1,1 +1,14 @@
 # Copy file and folder by python :
+###################################################
+#!/usr/bin/python
+
+import shutil, os
+
+#copy file (src,dst)
+shutil.copyfile('F:\11\list.txt', 'C:\Users\Blackhat\Desktop\list-1.txt')
+
+#copy folder (src,dst)
+shutil.copytree('C:\Users\Blackhat\AppData\Roaming', 'C:\Users\Blackhat\Desktop\12')
+
+#copy file for windows
+os.system('copy C:\Users\Blackhat\AppData\Roaming\Mozilla\Firefox\Profiles\88cptrkl.default C:\Users\Blackhat\Desktop\1')
